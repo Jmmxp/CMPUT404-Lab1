@@ -1,2 +1,4 @@
-import pkg_resources
-print(pkg_resources.get_distribution("requests").version)
+import requests
+
+r = requests.get("http://www.google.com")
+print(r.status_code)
