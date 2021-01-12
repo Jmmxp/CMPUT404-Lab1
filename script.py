@@ -1,4 +1,4 @@
 import requests
 
-r = requests.get("http://www.google.com")
-print(r.status_code)
+r = requests.get("https://raw.githubusercontent.com/Jmmxp/CMPUT404-Lab1/main/script.py")
+print(r.text)
